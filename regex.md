@@ -86,6 +86,15 @@ print(m3) # [('p', 'Hello'), ('span', 'world!')]
 
 *Remarque: les symboles `.`, `+` et `?` seront expliqués plus en détails dans les chapitres suivants.*
 
+### sub
+
+Retourne une nouvelle chaine dans laquelle tous les éléments qui correspondent seront remplacés
+
+```python
+print(re.sub('chien', 'chat', 'tout le monde aime les chiens'))
+# tout le monde aime les chats
+```
+
 ---
 
 ## 3. Les "Wildcards" et les Classes de Caractères
@@ -188,16 +197,16 @@ print(m2) # ['<p>paragraphe</p>', '<span></span>', '<h1>titre</h1>']
 ## 6. Les Assertions conditionnelles
 
 - look ahead (?=...) 
-tous ce qui est suivit par
+tout ce qui est suivit par
 
 - negative look ahead (?!...) 
-tous ce qui n'est suivit pas par
+tout ce qui n'est suivit pas par
 
 - look behind (?<=...) 
-tous ce qui est précédé par
+tout ce qui est précédé par
 
 - negative look behind (?<!...) 
-tous ce qui n'est précédé pas par
+tout ce qui n'est précédé pas par
 
 ---
 
